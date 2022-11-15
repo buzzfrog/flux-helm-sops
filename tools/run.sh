@@ -32,7 +32,6 @@ kubectl create namespace flux-workspace
 
 flux create source git source-repository \
     --url=$SOURCE_REPO \
-    --secret-ref repository-auth \
     --namespace flux-workspace \
     --branch=main \
     --interval=1m
