@@ -1,0 +1,5 @@
+resources:
+  - flux-helmrelease.yaml
+
+components:
+  - ../../../components/component1
