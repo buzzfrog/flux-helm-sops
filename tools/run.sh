@@ -37,7 +37,7 @@ flux create source git source-repository \
     --interval=1m
 
 flux create kustomization cluster \
-    --path=.clusters/cluster1/app1 \
+    --path=./clusters/cluster1/app1 \
     --source=source-repository \
     --namespace flux-workspace \
     --prune=true \
